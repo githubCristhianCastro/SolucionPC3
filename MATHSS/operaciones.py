@@ -7,7 +7,7 @@ def sumar(x:float,y:float)->float:
     except ValueError:
         return "Error: Tipo de dato no válido"
 
-def restar(x:float,y:float)->float:
+def resta(x:float,y:float)->float:
     try:
         resultado = x-y
         return resultado
